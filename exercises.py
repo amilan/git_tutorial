@@ -67,10 +67,11 @@ def sum(numbers):
 	return total;
 
 def find_longest_word(listWord):
-  ie = 0
-  for world in listWord:
+    ie = 0
+    for world in listWord:
 	if len(world) > ie :
 	   ie = len(world)
+    return ie
 
 def multiply(numbers):
 	total = 1;
