@@ -4,7 +4,7 @@ Git tutorial, MXCuBE workshop - 30th June 2016, EMBL Hamburg, Germany
 Run the exercises file like this:
 
 ```
-python -Wd -i exercices.py
+python -Wd -i exercises.py
 ```
 
 And then call functions as needed, eg.:
