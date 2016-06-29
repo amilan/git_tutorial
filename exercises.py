@@ -21,6 +21,22 @@ def test_decypher():
     assert decypher(test_string) == "i hope you didnt translate it by hand. thats what computers are for. doing it in"\
                                     " by hand is inefficient and that's why this text is so long."
 
+
+def sum_first_integers(N):
+    """Function will return sum of integers up to and including N
+    
+    Args:
+        N (int): Integer to go up to
+    
+    Returns:
+        int: Sum of first N integers
+    """
+    sum = 0 
+    for n in range(N+1):
+        sum += n
+    return sum
+
+
 def is_vowel(c):
     """
    
