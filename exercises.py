@@ -31,10 +31,7 @@ def sum_first_integers(N):
     Returns:
         int: Sum of first N integers
     """
-    sum = 0 
-    for n in range(N+1):
-        sum += n
-    return sum
+    return N*(N-1)/2 
 
 
 def is_pangram(sentence):
