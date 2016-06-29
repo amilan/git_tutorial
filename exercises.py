@@ -37,6 +37,17 @@ def sum_first_integers(N):
     return sum
 
 
+def is_pangram(sentence):
+  """Detect whether a sentence is a pangram
+  """ 
+  ref_sentence="thequickbrownfoxjumpsoverthelazydog"
+
+  sentence = sentence.lower()
+  sentence =  sentence.replace(" ", "")
+
+  return not (set(ref_sentence) - set(sentence))
+
+
 def is_vowel(c):
     """
    
