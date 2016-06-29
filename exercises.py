@@ -61,28 +61,38 @@ def sum_n(number):
     return np.sum(numbers)
 
 def sum(numbers):
-	total = 0;
-	for num in numbers:
-		total += num
-	return total;
+    total = 0
+    for num in numbers:
+        total += num
+	return total
 
 def find_longest_word(listWord):
     ie = 0
     for world in listWord:
-	if len(world) > ie :
-	   ie = len(world)
+        if len(world) > ie :
+            ie = len(world)
     return ie
 
+
 def multiply(numbers):
-	total = 1;
-	for num in numbers:
-		total *= num
-	return total;
-
-  return ie
+    total = 1
+    for num in numbers:
+        total *= num
+    return total
 
 
+def histogram(num_of_stars_list):
+    """
+    This method gets the number of stars to be printed in the histogram
+    and printed.
+    :param num_of_stars_list:
+    """
 
- __name__ == '__main__':
-    pass
+    def print_stars(n):
+        print '*' * n
+
+    map(print_stars, num_of_stars_list)
+
+if __name__ == '__main__':
+    histogram([4,9,7])
 
