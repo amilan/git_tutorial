@@ -14,9 +14,11 @@ def decypher(s):
 
 
 def test_decypher():
-    test_string = "g fmnc wms bgblr rpylqjyrc gr zw fylb. rfyrq ufyr amknsrcpq ypc dmp. bmgle gr gl zw fylb gq glcddgagclr ylb rfyr'q ufw rfgq rcvr gq qm jmle."
+    test_string = "g fmnc wms bgblr rpylqjyrc gr zw fylb. rfyrq ufyr amknsrcpq ypc dmp. bmgle gr gl zw fylb gq glcddga"\
+                  "gclr ylb rfyr'q ufw rfgq rcvr gq qm jmle."
   
-    assert decypher(test_string) == "i hope you didnt translate it by hand. thats what computers are for. doing it in by hand is inefficient and that's why this text is so long."
+    assert decypher(test_string) == "i hope you didnt translate it by hand. thats what computers are for. doing it in"\
+                                    " by hand is inefficient and that's why this text is so long."
 
 
 def is_vowel(c):
