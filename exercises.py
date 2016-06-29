@@ -39,7 +39,6 @@ def sum_first_integers(N):
 def is_vowel(c):
     pass
 
->>>>>>> upstream/master
 
 if __name__ == '__main__':
     pass
