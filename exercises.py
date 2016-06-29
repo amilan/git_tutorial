@@ -32,11 +32,11 @@ def is_vowel(c):
 
 
 def sum_n(number):
-  """
-  Function that returns the sum of the first N integers.
-  """
-  numbers = np.arange(int(number)+1)
-  return np.sum(numbers)
+    """
+    Function that returns the sum of the first N integers.
+    """
+    numbers = np.arange(int(number)+1)
+    return np.sum(numbers)
 
 if __name__ == '__main__':
     pass
