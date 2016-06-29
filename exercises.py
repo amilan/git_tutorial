@@ -15,6 +15,11 @@ def test_decypher():
   
   assert decypher(test_string) == "i hope you didnt translate it by hand. thats what computers are for. doing it in by hand is inefficient and that's why this text is so long."  
 
+def is_vowel(c):
+  pass
+
+
+
 if __name__ == '__main__':
     pass
 
