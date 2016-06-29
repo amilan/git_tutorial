@@ -64,7 +64,8 @@ def sum(numbers):
     total = 0
     for num in numbers:
         total += num
-	return total
+    return total
+
 
 def find_longest_word(listWord):
     ie = 0
@@ -95,4 +96,3 @@ def histogram(num_of_stars_list):
 
 if __name__ == '__main__':
     histogram([4,9,7])
-
