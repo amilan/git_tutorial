@@ -37,7 +37,13 @@ def sum_first_integers(N):
 
 
 def is_vowel(c):
-    pass
+    """
+   
+    This was a difficult
+    :param c: a letter
+    :type: string
+    """
+    return c in 'aeoiuy'
 
 
 if __name__ == '__main__':
