@@ -54,6 +54,19 @@ def sum_n(number):
     numbers = np.arange(int(number)+1)
     return np.sum(numbers)
 
+def sum(numbers):
+	total = 0;
+	for num in numbers:
+		total += num
+	return total;
+
+def multiply(numbers):
+	total = 1;
+	for num in numbers:
+		total *= num
+	return total;
+
+
 if __name__ == '__main__':
     pass
 
