@@ -7,12 +7,10 @@ def test_deprecation_warning():
     warnings.warn("This is a deprecated function, will disappear", DeprecationWarning)
     print 'still, the function continues'
 
-
 def decypher(s):
     """Knowing that k -> m, o -> q, e -> g this function
     decyphers the string s and returns readable text."""
-    return "".join(map(chr, [97+(ord(c)-95)%25 if c.isalpha() else ord(c) for c in s]))
-
+    return "".join(map(chr, [97+(ord(c)-95)%26 if c.isalpha() else ord(c) for c in s]))
 
 def test_decypher():
     test_string = "g fmnc wms bgblr rpylqjyrc gr zw fylb. rfyrq ufyr amknsrcpq ypc dmp. bmgle gr gl zw fylb gq glcddga"\
@@ -67,6 +65,7 @@ def sum(numbers):
 	for num in numbers:
 		total += num
 	return total;
+>>>>>>> 702082a5f917009d03b6629abc4bfcae1b95d79c
 
 def multiply(numbers):
 	total = 1;
