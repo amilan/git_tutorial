@@ -18,7 +18,19 @@ def test_decypher():
 def is_vowel(c):
   pass
 
-
+def sum_first_integers(N):
+    """Function will return sum of integers up to and including N
+    
+    Args:
+        N (int): Integer to go up to
+    
+    Returns:
+        int: Sum of first N integers
+    """
+    sum = 0 
+    for n in range(N+1):
+        sum += n
+    return sum
 
 if __name__ == '__main__':
     pass
